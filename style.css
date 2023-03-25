@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2em;
+}
+
+.registrationcontainer{
+    font-weight: 700;
+    justify-self: center;
+    width:auto;
+    height:auto;
+    padding:1em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:1em;
+   
+    font-size: 20px;
+    background-color: #85f17b;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+}
+.registrationcontainer input{
+    padding:0.5em;
+    outline:none;
+    font-weight: 700;
+}
+.submit{
+    width:50%;
+    padding:0.5em;
+    color: black;
+    font-weight: 800;
+    margin: auto;
+}
+.output{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5em;
+    justify-items: center;
+}
+.addData{
+    text-align: center;
+    width:70%;
+    height:auto;
+    padding:1em;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.output .addData img{
+    width:150px;
+    height:150px;
+    
+}
+@media all and (max-width:900px){
+    .output{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:0.5em;
+        justify-items: center;
+        
+    }
+
+}
+@media all and (max-width:400px){
+    .container{
+        padding:0.4em;
+    }
+    .registrationcontainer{
+        padding:0.5em;
+    }
+    .output{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap:0.5em;
+        justify-items: center;
+    }
+}
